@@ -224,4 +224,4 @@ borg extract /chemin/du/depot::nomdel'archive
 Les arguments comment -p ou --progress permet de voir la progression de la rétauration
 
 
-# Voila vous savez comment faire un Cloud maison!
+# Voila vous savez comment faire un Cloud maison et avoir des sauvegardes à dispositions !
