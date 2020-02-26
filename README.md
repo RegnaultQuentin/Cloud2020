@@ -207,10 +207,11 @@ retention:
 borgmatic --config nom_du_fichier.yaml --verbosity 1
 ```
 (Cela peut prendre un peu de temps si suivant la taille des données à sauvegarder)
-* Il faut mettre cette commande dans une crontab pour avoir une sauvegarde automatique avec :
+* Il faut mettre cette commande dans une crontab avec l'utilisateur root pour avoir une sauvegarde automatique avec :
 ```
 crontab -e
 ```
+* Ou vous pouvez utilisez borgmtic directement
 
 * Pour lister ces sauvegardes :
 ```
